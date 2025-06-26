@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slidecon {
+  padding: 20px 10%;
+}
+.slideContainer {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.slideContainer img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3 ease-in-out;
+}
+.slideContainer:hover img {
+  transform: scale(1.01);
+}

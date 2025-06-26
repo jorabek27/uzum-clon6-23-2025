@@ -1,12 +1,20 @@
 import "./App.css";
 import Header from "./Components/header";
+import Products from "./Components/Products";
 import Slider from "./Components/Slider";
-function App() {
+import Slide from "./Components/Slide";
+import Footer from "./Components/Footer";
 
+
+function App() {
   return (
     <>
       <Header />
-      <Slider/>
+      <Slider />
+      <Products />
+      <Slide />
+      <Footer/>
+
     </>
   );
 }
