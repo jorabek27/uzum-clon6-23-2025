@@ -1,0 +1,66 @@
+
+.opencontainer {
+  background: linear-gradient(102.67deg, #7000ff, #5000aa 99.23%);
+  padding: 60px 21% 50px 21%;
+  height: 84vh;
+}
+.opencontainer nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav img {
+  width: 156px;
+  height: 48px;
+}
+.right {
+  display: flex;
+  gap: 36px;
+}
+.right p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.lang {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+  padding: 7px 15px;
+  background-color: #FFFFFF26;
+  border-radius: 100px;
+}
+.lang svg {
+  width: 32px;
+  height: 32px;
+  font-weight: 500;
+}
+.body{
+  padding-top: 35px;
+  display: flex;
+  width: 100%;
+}
+.imge{
+  position: relative;
+  width: 40%;
+left: 450px;}
+.text{
+  width: 40%;
+  position: absolute;
+  z-index: 2;
+
+}
+.imge img{
+  width: 440px;height: 400px;
+}
+.aloqa{
+  border-radius: 12px;
+  padding: 20px 35px;
+  border: none;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.819);
+  margin-top: 23px;
+
+}
