@@ -1,4 +1,3 @@
-
 .opencontainer {
   background: linear-gradient(102.67deg, #7000ff, #5000aa 99.23%);
   padding: 60px 21% 50px 21%;
@@ -27,7 +26,7 @@ nav img {
   gap: 5px;
   color: #fff;
   padding: 7px 15px;
-  background-color: #FFFFFF26;
+  background-color: #ffffff26;
   border-radius: 100px;
 }
 .lang svg {
@@ -35,32 +34,79 @@ nav img {
   height: 32px;
   font-weight: 500;
 }
-.body{
+.body {
   padding-top: 35px;
   display: flex;
   width: 100%;
 }
-.imge{
+.imge {
   position: relative;
   width: 40%;
-left: 450px;}
-.text{
+  left: 450px;
+}
+.text {
   width: 40%;
   position: absolute;
   z-index: 2;
-
 }
-.imge img{
-  width: 440px;height: 400px;
+.imge img {
+  width: 440px;
+  height: 400px;
 }
-.aloqa{
+.aloqa {
   border-radius: 12px;
   padding: 20px 35px;
   border: none;
-  background-color: #fff;
   font-size: 16px;
   font-weight: 600;
-  color: rgba(0, 0, 0, 0.819);
-  margin-top: 23px;
+  margin-top: 23px ;
+}
+.useful {
+  padding: 60px 21% 50px 21%;
+}
+.useful button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.easy-to-star{
+   padding: 60px 21% 50px 21%;
+}
+.cards {
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(2 ,1fr);
+  margin-left: 10px;
+  
+}
+.cards-three{
+  display: flex;gap: 10px;
+}
+
+.card {
+  background-color: #f0f2f5;
+  padding: 24px;
+  border-radius: 32px;
+  width: 100%;
+}
+.nuber {
+  width: 40px;height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #fff;
+  color:#8967f1;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0  0 30px 0;
+}
+.card h2{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.card p{
+    color: #4d4f59;
+    font-size: 14px;
 }
